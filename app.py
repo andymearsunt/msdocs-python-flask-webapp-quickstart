@@ -1,6 +1,6 @@
 import os
 
-from flask import (Flask, redirect, render_template, request,
+from flask import (Flask, redirect, render_template, jsonify, request,
                    send_from_directory, url_for)
 
 app = Flask(__name__)
